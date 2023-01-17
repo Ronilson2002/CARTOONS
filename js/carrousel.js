@@ -39,7 +39,7 @@ function mostrarSlides() {
   if (slideIndice >= nums.length) {
     slideIndice = 0;
   }
-  path = "url('../img/covers/" + nums[slideIndice] + "')"
+  path = "url('./img/covers/" + nums[slideIndice] + "')"
   slider.style.background = path + "center top repeat-x";
   slider.style.backgroundSize = "cover";
   slideIndice++;
