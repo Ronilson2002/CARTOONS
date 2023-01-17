@@ -205,7 +205,7 @@ function Loading(manga, valor) {
   for (let c = 0; c < pag.length; c++) {
     imgs1[c] = document.createElement("img");        
     imgs1[c].style.width = "100%";
-    imgs1[c].setAttribute("src", "../img/covers/" + manga + "/" + pag[c]);
+    imgs1[c].setAttribute("src", "./img/covers/" + manga + "/" + pag[c]);
     imgs1[c].setAttribute("alt", pag[c]);  }
 
   for (let d = 0; d < pag.length; d++) {
@@ -224,7 +224,7 @@ function Loading(manga, valor) {
     imgs2[b1] = document.createElement("img");  
     imgs2[b1].setAttribute("class", "demo cursor");   
     imgs2[b1].style.width = "100px";
-    imgs2[b1].setAttribute("src", "../img/covers/" + manga + "/" + pag[b1]);
+    imgs2[b1].setAttribute("src", "./img/covers/" + manga + "/" + pag[b1]);
     imgs2[b1].setAttribute("alt", pag[b1]);
     imgs2[b1].onclick = function(){currentSlide(b1+1);}
     }
